@@ -1,19 +1,19 @@
 
 .PHONY: all build run
-	
+
 all: build run
-	
+
 build:
 	docker build \
-		-t nanobox/buildpack-build \
+		-t mubox/buildpack-build \
 		build
-		
-	docker push nanobox/buildpack-build
-	
+
+	docker push mubox/buildpack-build
+
 run:
 	docker build \
-		-t nanobox/buildpack-run \
+		-t mubox/buildpack-run \
 		run
-	
-	docker push nanobox/buildpack-run
-	
+
+	docker push mubox/buildpack-run
+

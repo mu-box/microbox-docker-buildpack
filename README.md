@@ -1,2 +1,2 @@
-# nanobox-docker-buildpack
+# microbox-docker-buildpack
 Dockerfiles and assets to build images for buildpack builds
